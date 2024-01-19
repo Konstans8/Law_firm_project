@@ -1,0 +1,17 @@
+
+
+.btn {
+    background-color: #254480;
+    padding: 15px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+        background-color: #254e9b;
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+}

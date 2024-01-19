@@ -1,0 +1,46 @@
+.header {
+    width: -webkit-fill-available;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    padding: 30px 120px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+
+.navigation {
+    
+
+    .link {
+        margin-right: 22px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+
+        &:hover {
+            color: rgb(62, 62, 136);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    a {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+
+        &:hover {
+            color: rgb(62, 62, 136);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+}
