@@ -1,9 +1,10 @@
-import { DM_Serif_Display } from 'next/font/google'
+// import { Cinzel } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.scss'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
-const DMS = DM_Serif_Display({ 
+const montserrat = Montserrat({ 
   weight: ['400'],
   subsets: ['latin'] 
 })
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={DMS.className}>
+      <body className={montserrat.className}>
         <Header />
         {children}
         <Footer />

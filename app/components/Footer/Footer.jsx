@@ -48,7 +48,9 @@ export default function Footer() {
                     </p>    
                 </div>
                 <div className={styles.sentence}>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nulla enim veritatis laboriosam doloribus facilis ipsa officiis totam eligendi, tempore eos provident culpa magni consectetur in quo repellendus eveniet. Perferendis.</p>
+                    <p>
+                    Zapraszamy do skorzystania z naszych usług i odkrycia, jak Kancelaria  Zembowicz możemy być Twoim niezawodnym partnerem w sprawach prawnych. Skontaktuj się z nami, a my z przyjemnością pomożemy rozwiązać Twoje problemy prawne.
+                    </p>
                 </div>
             </div>
         </footer>

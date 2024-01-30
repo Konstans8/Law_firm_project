@@ -5,8 +5,8 @@ import styles from './Header.module.scss';
 export default function Header() {
     return(
         <header className={styles.header}>
-            <div>
-                <Image
+            <div className={styles.logo_container}>
+                <Image className={styles.logo}
                     src="/Logo.png"
                     width={300}
                     height={60}

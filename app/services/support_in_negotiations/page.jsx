@@ -4,15 +4,15 @@ import Image from 'next/image'
 import styles from '../../page.module.scss';
 
 
-export default function Services() {
+export default function ServicesOne() {
   return (
     <>
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_5.png" alt="Logo" />
+        <img className={styles.image} src="/services_4.png" alt="Logo" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
-          <h1>Prawo</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
+          <h1>Wsparcie w negocjacjach</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
         </div>
       </div> 
 
@@ -34,40 +34,40 @@ export default function Services() {
       <div className={styles.partners}>
         <h2>USŁUGI KTÓRE ŚWIADCZYMY</h2>
         <div className={styles.names}>
-          <Link className={styles.service} href='/services/oszustwo'>
-            <img src="/page2_1.png" alt="" />
+          <Link className={styles.service} href='/services/civil_law'>
+            <img src="/page2_1.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Oszustwo</span>
+              <span>Prawo Cywilne</span>
             </div>
           </Link>
-          <Link className={styles.service} href='/services/pomoc'>
-            <img src="/page2_2.png" alt="" />
+          <Link className={styles.service} href='/services/family_law'>
+            <img src="/page2_2.png" alt="family_law" />
             <div className={styles.overlay}>
-              <span>Pomoc</span>
+              <span>Prawo Rodzinne</span>
             </div>
           </Link>
-          <Link className={styles.service} href='/services/adwokat'>
-            <img src="/page2_3.png" alt="" />
+          <Link className={styles.service} href='/specialization'>
+            <img src="/page2_3.png" alt="veterinary_law" />
             <div className={styles.overlay}>
-              <span>Adwokat</span>
+              <span>Prawo Weterynaryjne</span>
             </div>
           </Link>
-          <Link className={styles.service} href='/services/obrona'>
-            <img src="/page2_4.png" alt="" />
+          <Link className={styles.service} href='/services/support_in_negotiations'>
+            <img src="/page2_4.png" alt="support_in_negotiations" />
             <div className={styles.overlay}>
-              <span>Obrona</span>
+              <span>Wsparcie w Negocjacjach</span>
             </div>
           </Link>
-          <Link className={styles.service} href='/services/prawo'>
-            <img src="/page2_5.png" alt="" />
+          <Link className={styles.service} href='/services/preparing_and_giving_opinions'>
+            <img src="/page2_5.png" alt="preparing_and_giving_opinions" />
             <div className={styles.overlay}>
-              <span>Prawo</span>
+              <span>Sporządzanie i Opiniowanie Umów</span>
             </div>
           </Link>
-          <Link className={styles.service} href='/services/dokumenty'>
-            <img src="/page2_6.png" alt="" />
+          <Link className={styles.service} href='/services/commercial_law'>
+            <img src="/page2_6.png" alt="commercial_law" />
             <div className={styles.overlay}>
-              <span>Dokumenty</span>
+              <span>Prawo Handlowe i Korporacje</span>
             </div>
           </Link>
         </div>

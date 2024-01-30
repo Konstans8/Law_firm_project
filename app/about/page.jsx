@@ -10,10 +10,10 @@ export default function Services() {
     <>
       <div className={styles.hero}>
         <img className={styles.image} src="/main_4.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/main_4media1200.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>KANCELARIA ZEMBOWICZ TYLKO WYSOKOKWALIFIKOWANI I DOŚWIADCZENI PRAWNICY</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
+          <h1>KANCELARIA <br /> ZEMBOWICZ <br /> KWALIFIKOWANI <br /> I DOŚWIADCZENI <br /> PRAWNICY</h1>
         </div>
       </div> 
 

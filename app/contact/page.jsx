@@ -12,8 +12,7 @@ export default function Services() {
         <img className={styles.image} src="/main_5.png" alt="Logo" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>NASZA SIEDZIBA <br /> W WARSZAWIE</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
+          <h1>NASZA <br /> SIEDZIBA <br /> W WARSZAWIE</h1>
         </div>
       </div>
 
