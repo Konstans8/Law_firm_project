@@ -11,20 +11,28 @@ export default function Services() {
       <div className={styles.hero}>
         <img className={styles.image} src="/main_4.png" alt="Logo" />
         <img className={styles.image_media_1024} src="/main_4media1200.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/main_4media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>KANCELARIA <br /> ZEMBOWICZ <br /> KWALIFIKOWANI <br /> I DOŚWIADCZENI <br /> PRAWNICY</h1>
+          <h1>KWALIFIKOWANI <br /> I DOŚWIADCZENI <br /> PRAWNICY</h1>
         </div>
       </div> 
 
       <div className={styles.info}>
-        <div className={styles.info_left}>
-          <h2>Adwocati i prawnicy w kancelaria ZEMBOWICZ</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Et accusamus ut corporis! Itaque unde ea rem nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Et accusamus ut corporis! Itaque unde ea rem nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Et accusamus ut corporis! Itaque unde ea rem nobis!</p>
+        <div className={styles.info_container}>
+          <div className={styles.title}>
+            <h2>CZYM SIE ZAJMUJEMY</h2>
+          </div>
+          <div className={styles.description}>
+            <p>
+              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            </p>
+          </div>
+          
         </div>
-        <div className={styles.info_right}>
-          <img src="/info_page3.png" alt="law man" />
-        </div>
+        <div className={styles.image}>
+            <img className={styles.info_img} src="/info_page3.png" alt="law lady"/>
+          </div>
       </div>
 
       <div className={styles.line}></div>

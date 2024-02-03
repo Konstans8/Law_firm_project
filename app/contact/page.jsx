@@ -10,6 +10,8 @@ export default function Services() {
     <>
       <div className={styles.hero}>
         <img className={styles.image} src="/main_5.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/main_5media1200.png" alt="Logo" />
+        <img className={styles.image_media_768} src="/main_5media768.png" alt="Logo" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
           <h1>NASZA <br /> SIEDZIBA <br /> W WARSZAWIE</h1>
@@ -21,7 +23,8 @@ export default function Services() {
         <div className={styles.address}>
           <div className={styles.address_left}>
             <img src="/contact_map.svg" alt="" />
-            <p>Stałe miejsce wykonywania działalności gospodarczej:</p>
+            <p>Stałe miejsce wykonywania</p>
+            <p>działalności gospodarczej:</p>
             <p>Województwo: MAZOWIECKIE </p>  
             <p>Powiat: Warszawa</p>  
             <p>Miejscowość: Warszawa</p>  

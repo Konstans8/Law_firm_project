@@ -6,18 +6,33 @@
     background-size: cover;
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        background-image: url(/footer768.png);
+        height: 590px;
+    }
 }
 
 .left {
-    padding: 80px;
-    max-width: 300px;
+    padding: 40px;
+    // max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 
+    @media(max-width: 768px) {
+        align-items: center;
+        padding-bottom: 0;
+    }
+
 
     .logo {
         margin-bottom: 70px;
+
+        @media(max-width: 768px) {
+            margin-bottom: 30px;
+        }
     }
     
     p {
@@ -29,17 +44,39 @@
         line-height: normal;
         text-align: end; 
         margin-bottom: 30px;
+
+        @media(max-width: 768px) {
+            text-align: center;
+        }
     }
 
     a {
         color: white;
+        background: #3a3391;
+        padding: 10px 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        &:hover {
+            background: #8985c6;
+        }
+        &:active {
+            background: #25215d;
+        }
     }
 }
 
 .right {
-    padding: 80px;
+    padding: 40px;
     display: flex;
     gap: 50px;
+
+    @media(max-width: 768px) {
+        justify-content: center;
+        padding-top: 0;
+    }
 
 
     .links {
@@ -62,6 +99,12 @@
     }
 
     .local {
+
+        @media(max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         .mr {
             margin-bottom: 20px;
@@ -89,7 +132,11 @@
     }
 
     .sentence {
-        width: 300px;
+        max-width: 300px;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
 
         p {
             font-size: 20px;
@@ -101,6 +148,7 @@
             @media(max-width: 1600px) {
                 font-size: 16px;
             }
+
         }
     }
 }

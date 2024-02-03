@@ -9,24 +9,29 @@ export default function ServicesOne() {
     <>
       <div className={styles.hero}>
         <img className={styles.image} src="/services_4.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/services_4media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/services_4media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Wsparcie w negocjacjach</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
         </div>
       </div> 
 
       <div className={styles.info}>
-        <div className={styles.info_left}>
-          <h2>JAK POMOC</h2>
-          <div className={styles.second_page}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Et accusamus ut corporis! Itaque unde ea rem nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Et accusamus ut corporis! Itaque unde ea rem nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vero tempora minus odit, ab voluptatem maxime nulla eum, doloremque assumenda quaerat!</p>
+        <div className={styles.info_container}>
+          <div className={styles.title}>
+            <h2>CZYM SIE ZAJMUJEMY</h2>
           </div>
+          <div className={styles.description}>
+            <p>
+              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            </p>
+          </div>
+          
         </div>
-        <div className={styles.info_right}>
-          <img src="/info_page2.png" alt="law foto" />
-        </div>
+        <div className={styles.image}>
+            <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
+          </div>
       </div>
 
       <div className={styles.line}></div>
@@ -36,38 +41,44 @@ export default function ServicesOne() {
         <div className={styles.names}>
           <Link className={styles.service} href='/services/civil_law'>
             <img src="/page2_1.png" alt="civil_law" />
+            <img className={styles.image_1024} src="/page2_1media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Prawo Cywilne</span>
+              <span className={styles.card_title}>Prawo Cywilne</span>
             </div>
           </Link>
           <Link className={styles.service} href='/services/family_law'>
             <img src="/page2_2.png" alt="family_law" />
+            <img className={styles.image_1024} src="/page2_2media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Prawo Rodzinne</span>
+              <span className={styles.card_title}>Prawo Rodzinne</span>
             </div>
           </Link>
           <Link className={styles.service} href='/specialization'>
             <img src="/page2_3.png" alt="veterinary_law" />
+            <img className={styles.image_1024} src="/page2_3media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Prawo Weterynaryjne</span>
+              <span className={styles.card_title}>Prawo Weterynaryjne</span>
             </div>
           </Link>
           <Link className={styles.service} href='/services/support_in_negotiations'>
             <img src="/page2_4.png" alt="support_in_negotiations" />
+            <img className={styles.image_1024} src="/page2_4media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Wsparcie w Negocjacjach</span>
+              <span className={styles.card_title}>Wsparcie w Negocjacjach</span>
             </div>
           </Link>
           <Link className={styles.service} href='/services/preparing_and_giving_opinions'>
             <img src="/page2_5.png" alt="preparing_and_giving_opinions" />
+            <img className={styles.image_1024} src="/page2_5media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Sporządzanie i Opiniowanie Umów</span>
+              <span className={styles.card_title}>Sporządzanie i Opiniowanie Umów</span>
             </div>
           </Link>
           <Link className={styles.service} href='/services/commercial_law'>
             <img src="/page2_6.png" alt="commercial_law" />
+            <img className={styles.image_1024} src="/page2_6media.png" alt="civil_law" />
             <div className={styles.overlay}>
-              <span>Prawo Handlowe i Korporacje</span>
+              <span className={styles.card_title}>Prawo Handlowe i Korporacje</span>
             </div>
           </Link>
         </div>
