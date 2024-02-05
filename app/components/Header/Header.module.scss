@@ -1,6 +1,6 @@
 .header {
     width: -webkit-fill-available;
-    background-color: rgba(27, 26, 28, 0.2) ;
+    background-color: rgba(27, 26, 28, 0.5);
     padding: 30px 120px;
     color: white;
     display: flex;
@@ -8,12 +8,17 @@
     justify-content: space-between;
     position: absolute;
     z-index: 2;
+    transition: all 1s ease-out;
 
     @media(max-width: 1024px) {
         flex-direction: column;
         gap: 10px;
-        background-color: #706b92;
+        // background-color: #706b92;
+        background-color: rgba(40, 39, 41, 0.99);
+    }
 
+    @media(max-width: 768px) {
+        
     }
 
     .media {
@@ -46,12 +51,17 @@
 
         @media(max-width: 1024px) {
             display: block;
-            background: #2d1e55;
-            padding: 5px 50px;
+            background: #fbfbfb;
+            padding: 7px 50px;
             border-radius: 10px;
             border: none;
-            color: #fff;
+            color: #000;
             margin-top: 10px;
+            transition: all 0.3s ease-out;
+
+            &:active {
+                background: #48448d;
+            }
         }
     }
 
@@ -113,4 +123,3 @@
     }
 
 }
-

@@ -4,10 +4,6 @@ import styles from './Burger.module.scss';
 
 export default function Burger({active, setActive}) {
 
-    let activeStyle = {
-        display: 'none'
-    };
-
     return(
         <>
             <div className={active ? (styles.active) : (styles.container)}>
