@@ -15,12 +15,14 @@ export default function Header() {
     return(
         <header className={styles.header}>
             <div className={styles.logo_container}>
+            <Link className={styles.link} href='/'>
                 <Image className={styles.logo}
                     src="/Logo.png"
                     width={300}
                     height={60}
                     alt="Logo"
                 />
+            </Link>
             </div>
             <div className={styles.media}>
                 <a href="tel:+48777777777">+48 777 777 777</a>

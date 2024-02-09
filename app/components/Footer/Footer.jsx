@@ -12,7 +12,7 @@ export default function Footer() {
                     height={50}
                     alt="Kancelaria Zembowicz"
                 />
-                <p>Otrzymaj darmową konsultację<br />W godzinach:<br />10:00 - 18:00</p>
+                <p>Skontaktuj Się z Nami</p>
                 <a href="tel:+48777777777">Zadzwoń</a>
             </div>
             <div className={styles.right}>

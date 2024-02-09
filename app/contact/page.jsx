@@ -17,36 +17,46 @@ export default function Services() {
         <img className={styles.image_media_768} src="/main_5media768.png" alt="Logo" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>NASZA <br /> SIEDZIBA <br /> W WARSZAWIE</h1>
+          <h1>Lokalizacja <br /> Kancelarii <br /> Zembowicz</h1>
         </div>
       </div>
 
       <div className={styles.contacts}>
         <h2>Dane kontaktowe Kancelarii Zembowicz</h2>
+        <div className={styles.contacts_text}>
+          <p>
+          Nasza kancelaria mieści się i w Warszawie, na ulicy Długiej. To centralne miejsce ułatwia dostępność dla naszych klientów z różnych dzielnic stolicy.
+          </p>
+          <p>
+          Chociaż nasza siedziba znajduje się w Warszawie, to z przyjemnością informujemy, że świadczymy usługi prawne na terenie całej Polski. Bez względu na to, czy znajdujesz się w Krakowie, Gdańsku, czy Wrocławiu, możesz liczyć na profesjonalną obsługę prawna z naszej strony. Jesteśmy gotowi pomóc Ci w rozwiązaniu Twoich problemów prawnych, bez względu na lokalizację.
+          </p>
+        </div>
         <div className={styles.address}>
-          <div className={styles.address_left}>
+          <div className={styles.address_top}>
             <img src="/contact_map.svg" alt="" />
-            <p>Stałe miejsce wykonywania</p>
-            <p>działalności gospodarczej:</p>
-            <p>Województwo: MAZOWIECKIE </p>  
-            <p>Powiat: Warszawa</p>  
-            <p>Miejscowość: Warszawa</p>  
-            <p>Ulica: Długa</p>  
-            <p>Numer: 29</p>  
+            <h5>Adres:</h5>
+            <p>Warszawa</p>  
+            <p>Ul. Długa 29</p>  
             <p>Lokal: 215</p>
             <p>Kod pocztowy: 00-238</p>  
           </div>
           <div className={styles.address_center}>
           <img src="/contact_call.svg" alt="" />
-            <p>Telefon:</p> 
+            <h5>Telefon:</h5> 
             <a href="tel:+48123456789 ">+48123456789</a>
             <a href="tel:+48987654321  ">+48987654321 </a>
           </div>
-          <div className={styles.address_right}>
+          <div className={styles.address_bottom}>
           <img src="/contact_mail.svg" alt="" />
-            <p>Adres poczty elektronicznej:</p>
-            <a href="mailto: helloworld@js.com">helloworld@js.com</a>
+            <h5>Adres poczty elektronicznej:</h5>
+            <a href="mailto: helloworld@js.com">kancelaria@zembowicz.pl</a>
           </div>
+        </div>
+
+        <div className={styles.b_text}>
+          <h5>
+            Jesteśmy Kancelarią, która troszczy się o Twoje prawa.
+          </h5>
         </div>
 
         <img src="/map.png" alt="" />

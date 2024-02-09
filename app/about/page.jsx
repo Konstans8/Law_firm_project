@@ -17,48 +17,65 @@ export default function Services() {
         <img className={styles.image_media_768} src="/main_4media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>KWALIFIKOWANI <br /> I DOŚWIADCZENI <br /> PRAWNICY</h1>
+          <h1>Kancelaria Zembowicz - Warszawa, ul. Dluga 29</h1>
         </div>
       </div> 
 
       <div className={styles.info}>
+        
         <div className={styles.info_container}>
+
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Radcy Prawni i Specjaliści w Kancelarii Zembowicz</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+              W Kancelarii Radcy Prawnego Renaty Zembowicz stawiamy na wysoką jakość usług prawnych, dostarczając naszym klientom kompleksową pomoc przy sprawach prawnych. Nasza kadra składa się z doświadczonych radców prawnych i specjalistów, którzy pod nadzorem Renaty Zembowicz, skrupulatnie pracują nad zabezpieczeniem interesów naszych klientów.
             </p>
           </div>
-          
+
         </div>
+
         <div className={styles.image}>
             <img className={styles.info_img} src="/info_page3.png" alt="law lady"/>
-          </div>
+        </div>
+        
       </div>
 
       <div className={styles.line}></div>
 
       <dir className={styles.persons}>
         <h2>Nasza kadra</h2>
-        <div className={styles.faces}>
-          <div className={styles.face}>
-            <img src="/face1.png" alt="man" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quos officia laborum doloremque tempora accusantium ratione molestias dolores, ad eveniet quidem non quibusdam accusamus, enim labore. Impedit sed sunt ratione.</p>
-          </div>
-          <div className={styles.face}>
-            <img src="/face2.png" alt="man" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quos officia laborum doloremque tempora accusantium ratione molestias dolores, ad eveniet quidem non quibusdam accusamus, enim labore. Impedit sed sunt ratione.</p>
-          </div>
-          <div className={styles.face}>
-            <img src="/face3.png" alt="man" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quos officia laborum doloremque tempora accusantium ratione molestias dolores, ad eveniet quidem non quibusdam accusamus, enim labore. Impedit sed sunt ratione.</p>
-          </div>
-          <div className={styles.face}>
+        <div className={styles.persons_container}>
+          <div className={styles.person}>
             <img src="/face4.png" alt="man" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quos officia laborum doloremque tempora accusantium ratione molestias dolores, ad eveniet quidem non quibusdam accusamus, enim labore. Impedit sed sunt ratione.</p>
+            <div className={styles.person_info}>
+              <h3>Renata Zembowicz - Radca Prawny:</h3>
+              <p>Renata Zembowicz to doświadczony radca prawny, mający na koncie liczne sukcesy w reprezentowaniu klientów w sprawach o różnym charakterze. Jej profesjonalizm i zaangażowanie wpływają na wysoką jakość usług świadczonych przez naszą kancelarię.</p>
+            </div>
           </div>
+          <div className={styles.person}>
+            <img src="/face3.png" alt="man" />
+            <div className={styles.person_info}>
+              <h3>Bartłomiej Wawryszuk- Aplikant Radcowski, Były Policjant</h3>
+              <p>Unikalne doświadczenie policyjne Bartłomieja Wawryszuka pozwala mu skutecznie reprezentować klientów w sprawach karnych, zwłaszcza policjantów.  Ponadto specjalizuje się w prawie weterynaryjnym i rodzinnym. Wspiera naszych klientów w negocjacji kontraktów i umów.</p>
+            </div>
+          </div>
+          <div className={styles.person}>
+            <img src="/face2.png" alt="man" />
+            <div className={styles.person_info}>
+              <h3>Agnieszka Lengier- Lekarz Weterynarii, Konsultant</h3>
+              <p>Agnieszka Lengier to doświadczony lekarz weterynarii, specjalista prawa weterynaryjnego i aktywny lekarz zajmujący się diagnozowaniem ultrasonograficznym. Posiadane przez nią unikalne połączenie wiedzy weterynaryjnej i prawniczej sprawia, że jest doskonałym konsultantem w zakresie błędów oraz praktyki weterynaryjnej.</p>
+            </div>
+          </div>
+          <div className={styles.person}>
+            <img src="/face1.png" alt="man" />
+            <div className={styles.person_info}>
+              <h3>Paweł Kumór- Księgowy, Konsultant</h3>
+              <p>Paweł Kumór to doświadczony księgowy, posiadający zdany egzaminy ministerialne potwierdzające jego kwalifikacje. Z powodzeniem pełnił rolę dyrektora finansowego, a jego specjalizacja obejmuje także obszar prawa handlowego. Jego solidne doświadczenie oraz głęboka wiedza pozwalają mu świadczyć usługi na najwyższym poziomie</p>
+            </div>
+          </div>
+          
         </div>
       </dir>
     </>

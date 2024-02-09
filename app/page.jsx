@@ -8,7 +8,7 @@ import Arrow from './components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Kancelaria Zembowicz',
-  description: 'Kancelaria Radcy Prawnego Renaty Zembowicz',
+  description: 'Kancelaria Radcy Prawnego Renata Zembowicz',
 }
 
 export default function Home() {
