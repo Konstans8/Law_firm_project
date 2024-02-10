@@ -106,7 +106,7 @@ export default function Specialization() {
         <h4>
           Jeśli poszukujesz doświadczonego adwokata ds. błędów lekarskich weterynaryjnych, jesteśmy tutaj, aby Ci pomóc. Nasza kancelaria świadczy usługi na terenie całej Polski. Skontaktuj się z nami, aby umówić się na bezpłatną konsultację prawna. Jesteśmy, aby bronić Twoich praw.
         </h4>
-        <a className={styles.phone} href="tel:+48777777777">
+        <a className={styles.phone} href="tel:+48505966643">
           <img src="/phone.svg" alt="" />
         </a>
       </div>
@@ -115,10 +115,7 @@ export default function Specialization() {
 
       <div className={styles.partners}>
         <h2>INNE USŁUGI</h2>
-        <button className={styles.btn}>
-          <img src="/arrow_next.svg" alt="" />
-          <Link className={styles.link} href='/services'>Przejdz</Link>
-        </button>
+          <Link className={styles.btn} href='/services'><img src="/arrow_next.svg" alt="" />Przejdz</Link>
       </div>
       
     </>

@@ -13,7 +13,7 @@ export default function Footer() {
                     alt="Kancelaria Zembowicz"
                 />
                 <p>Skontaktuj Się z Nami</p>
-                <a href="tel:+48777777777">Zadzwoń</a>
+                <a href="tel:+48505966643">Zadzwoń</a>
             </div>
             <div className={styles.right}>
                 <div className={styles.links}>

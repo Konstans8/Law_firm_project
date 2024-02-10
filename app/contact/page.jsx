@@ -43,8 +43,8 @@ export default function Services() {
           <div className={styles.address_center}>
           <img src="/contact_call.svg" alt="" />
             <h5>Telefon:</h5> 
-            <a href="tel:+48123456789 ">+48123456789</a>
-            <a href="tel:+48987654321  ">+48987654321 </a>
+            <a href="tel:+48508064010">+48 508 064 010</a>
+            <a href="tel:+48505966643">+48 505 966 643</a>
           </div>
           <div className={styles.address_bottom}>
           <img src="/contact_mail.svg" alt="" />
@@ -59,7 +59,8 @@ export default function Services() {
           </h5>
         </div>
 
-        <img src="/map.png" alt="" />
+        <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152.67627259198045!2d21.004553924307057!3d52.24664646532558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc64d0a3ab91%3A0x58cd5f2191ba6f7b!2sD%C5%82uga%2029%2C%2000-238%20Warszawa!5e0!3m2!1sru!2spl!4v1707552253307!5m2!1sru!2spl" width={"100%"} height={"600px"} allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
       </div>
     </>

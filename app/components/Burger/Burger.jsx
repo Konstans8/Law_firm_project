@@ -8,7 +8,8 @@ export default function Burger({active, setActive}) {
         <>
             <div className={active ? (styles.active) : (styles.container)}>
                 {/* <button className={styles.exit} onClick={() => setActive(false)}>exit</button> */}
-                <nav className={styles.navigation} onClick={e => e.stopPropagation()}>
+                {/* <nav className={styles.navigation} onClick={e => e.stopPropagation()}> */}
+                <nav className={styles.navigation} onClick={e => e.preventDefault()}>
                     <Link className={styles.link} href='/' onClick={() => setActive(false)}>KANCELARIA</Link>
                     <Link className={styles.link} href='/services' onClick={() => setActive(false)}>USŁUGI</Link>
                     <Link className={styles.link} href='/specialization' onClick={() => setActive(false)}>SPECJALIZACJA</Link>

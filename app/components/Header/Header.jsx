@@ -27,7 +27,7 @@ export default function Header() {
             <div className={styles.media}>
                 <a href="tel:+48777777777">+48 777 777 777</a>
             </div>
-            <button className={styles.open} onClick={() => setMenuActive(!menuActive) }>Menu</button>
+            <button className={styles.open} onClick={() => setMenuActive(!menuActive)}>Menu</button>
             <Burger active={menuActive} setActive={setMenuActive}/>
             <nav className={styles.navigation}>
                 <Link className={styles.link} href='/'>KANCELARIA</Link>
@@ -35,7 +35,7 @@ export default function Header() {
                 <Link className={styles.link} href='/specialization'>SPECJALIZACJA</Link>
                 <Link className={styles.link} href='/about'>O NAS</Link>
                 <Link className={styles.link} href='/contact'>KONTAKT</Link>
-                <a href="tel:+48777777777">+48 777 777 777</a>
+                <a href="tel:+48505966643">+48 505 966 643</a>
             </nav>
         </header>
     )

@@ -30,7 +30,7 @@ export default function Services() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
+            <img className={styles.info_img} src="/commercial.png" alt="commercial"/>
           </div>
       </div>
 
