@@ -62,7 +62,7 @@ export default function Home() {
         <div className={styles.line}></div>
 
         <div className={styles.why}>
-          <h2>DLACZEGO ZEMBOWICZ KANCELARIA?</h2>
+          <h2>Dlaczego kancelaria Zembowicz?</h2>
           <ul>
             <li>
               <img src="/Component_1.svg" alt="" />

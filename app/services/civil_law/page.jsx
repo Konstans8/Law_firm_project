@@ -2,11 +2,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../page.module.scss';
-
+import Arrow from '@/app/components/Arrow/Arrow';
 
 export default function Civil() {
   return (
     <>
+
+      <Arrow />
+
       <div className={styles.hero}>
         <img className={styles.image} src="/services_1.png" alt="Logo" />
         <img className={styles.image_media_1024} src="/services_1media1024.png" alt="Main cover" />

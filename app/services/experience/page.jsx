@@ -2,11 +2,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../page.module.scss';
+import Arrow from '@/app/components/Arrow/Arrow';
 
 
 export default function Services() {
   return (
     <>
+
+      <Arrow />
+
       <div className={styles.hero}>
         <img className={styles.image} src="/services_ex.png" alt="Logo" />
         <div className={styles.req}></div>
