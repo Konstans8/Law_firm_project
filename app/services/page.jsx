@@ -4,6 +4,13 @@ import Image from 'next/image'
 import styles from '../page.module.scss';
 import Button from '../components/Button/Button';
 import Arrow from '../components/Arrow/Arrow';
+import ServicesContainer from '../components/Services_container/ServicesContainer';
+
+
+export const metadata = {
+  title: 'Kancelaria Zembowicz',
+  description: 'Radca Prawny Renata Zembowicz',
+}
 
 export default function Services() {
 
@@ -41,7 +48,7 @@ export default function Services() {
 
       <div className={styles.line}></div>
 
-      <div className={styles.partners}>
+      {/* <div className={styles.partners}>
         <h2>USŁUGI KTÓRE ŚWIADCZYMY</h2>
         <div className={styles.names}>
           <Link className={styles.service} href='/services/civil_law'>
@@ -93,21 +100,9 @@ export default function Services() {
             </div>
           </Link>
         </div>
-      </div>
+      </div> */}
 
-      {/* <div className={styles.line}></div>
-
-      <div className={styles.work}>
-        <h2>Zapoznaj się jak wygląda nasza praca</h2>
-        <img className={styles.image} src="/services_work.png" alt="Logo" />
-        <div className={styles.work_text}>
-          <h3>Nasz zespół posiada duże doświadczenie prawne</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab exercitationem debitis culpa natus, ratione ipsum sed iure odio nemo impedit, omnis quae voluptates in facilis dolore minus consectetur est.</p>
-          <Link href='/services/experience' className={styles.work_btn}>
-            <Button />
-          </Link>
-        </div>
-      </div>  */}
+      <ServicesContainer />
     </>
   )
 }

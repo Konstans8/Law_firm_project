@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+
+
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './page.module.scss';
@@ -8,7 +10,7 @@ import Arrow from './components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Kancelaria Zembowicz',
-  description: 'Kancelaria Radcy Prawnego Renata Zembowicz',
+  description: 'Radca Prawny Renata Zembowicz',
 }
 
 export default function Home() {

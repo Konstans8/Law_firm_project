@@ -1,7 +1,7 @@
 .header {
     width: -webkit-fill-available;
     background-color: rgba(27, 26, 28, 0.5);
-    padding: 30px 120px;
+    padding: 30px 500px;
     color: white;
     display: flex;
     align-items: center;
@@ -10,6 +10,9 @@
     z-index: 2;
     transition: all 1s ease-out;
 
+    @media(max-width: 2400px) {
+        padding: 30px 120px;
+    }
     @media(max-width: 1024px) {
         flex-direction: column;
         gap: 10px;

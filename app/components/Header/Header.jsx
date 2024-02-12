@@ -5,7 +5,7 @@ import Link from 'next/link';
 import styles from './Header.module.scss';
 import Burger from '../Burger/Burger';
 import { useState } from 'react';
-
+import { motion } from 'framer-motion'
 
 
 export default function Header() {
@@ -13,7 +13,21 @@ export default function Header() {
     const [menuActive, setMenuActive] = useState(false)
 
     return(
-        <header className={styles.header}>
+        <motion.header className={styles.header}
+        initial={{
+            // x: -1000,
+            opacity: 0
+        }}
+        animate={{
+            // x: 0,
+            opacity: 1,
+            scale: [1, 2, 2, 1, 1]
+        }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+            
+        }}
+        >
             <div className={styles.logo_container}>
             <Link className={styles.link} href='/'>
                 <Image className={styles.logo}
@@ -37,6 +51,6 @@ export default function Header() {
                 <Link className={styles.link} href='/contact'>KONTAKT</Link>
                 <a href="tel:+48505966643">+48 505 966 643</a>
             </nav>
-        </header>
+        </motion.header>
     )
 }

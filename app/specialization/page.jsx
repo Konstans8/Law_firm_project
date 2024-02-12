@@ -4,6 +4,10 @@ import Image from 'next/image'
 import styles from '../page.module.scss';
 import Arrow from '../components/Arrow/Arrow';
 
+export const metadata = {
+  title: 'Weterynarz',
+  description: 'Błąd lekarski',
+}
 
 export default function Specialization() {
   return (

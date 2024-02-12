@@ -4,6 +4,10 @@ import Image from 'next/image'
 import styles from '../../page.module.scss';
 import Arrow from '@/app/components/Arrow/Arrow';
 
+export const metadata = {
+  title: 'Prawo handlowe i korporacje',
+  description: 'Radca Prawny Renata Zembowicz',
+}
 
 export default function Services() {
   return (

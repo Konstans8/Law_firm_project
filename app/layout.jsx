@@ -1,13 +1,18 @@
-// import { Cinzel } from 'next/font/google'
+// import { Raleway } from 'next/font/google'
 import { Montserrat } from 'next/font/google'
 import './globals.scss'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 const montserrat = Montserrat({ 
-  weight: ['400'],
+  weight: ['300'],
   subsets: ['latin'] 
 })
+// const raleway = Raleway({ 
+//   weight: ['400'],
+//   subsets: ['latin'] 
+// })
+
 
 export const metadata = {
   title: 'Create Next App',

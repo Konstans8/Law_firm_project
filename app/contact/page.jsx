@@ -4,6 +4,11 @@ import Image from 'next/image'
 import styles from '../page.module.scss';
 import Arrow from '../components/Arrow/Arrow';
 
+export const metadata = {
+  title: 'Warszawa długa 29',
+  description: 'Radca Prawny Renata Zembowicz',
+}
+
 
 export default function Services() {
   return (

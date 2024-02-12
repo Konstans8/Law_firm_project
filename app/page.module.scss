@@ -4,9 +4,13 @@
         position: absolute;
         z-index: 1;
         max-width: 700px;
-        top: 300px;
-        left: 120px;
+        top: 400px;
+        left: 500px;
 
+        @media (max-width: 2400px) {
+            left: 120px;
+            top: 300px;
+        }
         @media (max-width: 1600px) {
             left: 70px;
             top: 200px;
@@ -123,9 +127,13 @@
         z-index: 1;
         max-width: 700px;
         // height: 700px;
-        top: 150px;
-        left: 120px;
+        top: 250px;
+        left: 500px;
 
+        @media(max-width: 2400px) {
+            left: 120px;
+            top: 150px;
+        }
         @media(max-width: 768px) {
             left: 40px;
             top: 170px;
@@ -177,12 +185,15 @@
 }
 
 .grid {
-    padding: 120px;
+    padding: 120px 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 50px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -210,17 +221,17 @@
 
         .title {
             h2 {
-                font-size: 64px;
+                font-size: 100px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 margin-bottom: 30px;
     
                 @media (max-width: 5000px) {
-                    font-size: 120px;
+                    font-size: 80px;
                 }
                 @media (max-width: 3000px) {
-                    font-size: 80px;
+                    font-size: 76px;
                 }
                 @media (max-width: 2000px) {
                     font-size: 56px;
@@ -354,8 +365,11 @@
 }
 
 .dop {
-    padding: 120px;
+    padding: 120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -388,11 +402,14 @@
 }
 
 .info {
-    padding: 120px;
+    padding: 120px 500px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -414,20 +431,20 @@
 
         .title {
             h2 {
-                font-size: 64px;
+                font-size: 80px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 margin-bottom: 30px;
     
                 @media (max-width: 5000px) {
-                    font-size: 120px;
+                    font-size: 64px;
                 }
                 @media (max-width: 3000px) {
-                    font-size: 80px;
+                    font-size: 52px;
                 }
                 @media (max-width: 2000px) {
-                    font-size: 56px;
+                    font-size: 50px;
                 }
                 @media (max-width: 1200px) {
                     font-size: 48px;
@@ -518,11 +535,15 @@
 }
 
 .line {
-    margin: 0 120px;
+    margin: 0 500px;
     width: 100px;
     height: 3px;
     background: black;
 
+    @media(max-width: 2400px) {
+        margin: 0 120px;
+        height: 2px;
+    }
     @media(max-width: 1200px) {
         margin: 0 70px;
         height: 2px;
@@ -537,8 +558,11 @@
 }
 
 .partners {
-    padding: 120px;
+    padding:120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -685,8 +709,11 @@
 }
 
 .why {
-    padding: 120px;
+    padding: 120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -749,8 +776,11 @@
 }
 
 .offer {
-    padding: 120px;
+    padding: 120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 1200px) {
         padding: 70px;
     }
@@ -859,8 +889,11 @@
 }
 
 .persons {
-    padding: 120px;
+    padding: 120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 768px) {
         padding: 70px 40px;
     }
@@ -938,8 +971,11 @@
 }
 
 .contacts {
-    padding: 120px;
+    padding: 120px 500px;
 
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
     @media(max-width: 768px) {
         padding: 70px 40px;
     }

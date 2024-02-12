@@ -4,6 +4,10 @@ import Image from 'next/image'
 import styles from '../../page.module.scss';
 import Arrow from '@/app/components/Arrow/Arrow';
 
+export const metadata = {
+  title: 'Wsparcie w negocjacjach',
+  description: 'Radca Prawny Renata Zembowicz',
+}
 
 export default function ServicesOne() {
   return (
@@ -34,7 +38,7 @@ export default function ServicesOne() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
+            <img className={styles.info_img} src="/negotiate.png" alt="law lady"/>
           </div>
       </div>
 
