@@ -618,12 +618,12 @@
     .names {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
+        grid-gap: 50px;
         justify-items: center;
 
-        @media(max-width: 1600px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
+        // @media(max-width: 1600px) {
+        //     grid-template-columns: repeat(2, 1fr);
+        // }
 
         @media(max-width: 768px) {
             grid-template-columns: 1fr;
@@ -792,14 +792,14 @@
     }
 
     h2 {
-        font-size: 64px;
+        font-size: 48px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
 
         @media (max-width: 1200px) {
-            font-size: 48px;
+            font-size: 40px;
         }
         @media (max-width: 768px) {
             font-size: 28px;
@@ -830,6 +830,81 @@
             flex-direction: column;
             align-items: center;
             // width: 200px;
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.offerServices {
+    padding: 120px 500px;
+
+    @media(max-width: 2400px) {
+        padding: 120px;
+    }
+    @media(max-width: 1200px) {
+        padding: 70px;
+    }
+    @media(max-width: 768px) {
+        padding: 70px 40px;
+    }
+    @media(max-width: 360px) {
+        padding: 50px 20px;
+    }
+
+    h2 {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 60px;
+
+        @media (max-width: 1200px) {
+            font-size: 40px;
+        }
+        @media (max-width: 768px) {
+            font-size: 28px;
+        }
+        @media (max-width: 500px) {
+            font-size: 24px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        @media(max-width: 1024px) {
+            grid-template-columns: 1fr;
+        }
+
+        @media(max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 700px;
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
 
             img {
                 margin-bottom: 20px;

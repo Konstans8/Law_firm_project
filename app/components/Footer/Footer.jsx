@@ -14,6 +14,7 @@ export default function Footer() {
                 />
                 <p>Skontaktuj Się z Nami</p>
                 <a href="tel:+48505966643">Zadzwoń</a>
+                <a href="mailto: helloworld@js.com">Napisz</a>
             </div>
             <div className={styles.right}>
                 <div className={styles.links}>
@@ -24,7 +25,7 @@ export default function Footer() {
                     <Link className={styles.link} href='/contact'>KONTAKT</Link>
                 </div>
                 <div className={styles.local}>
-                    <p className={styles.mr}>Stałe miejsce wykonywania <br /> działalności gospodarczej:</p>
+                    <p className={styles.mr}>Kancelaria Zembowicz <br /> Nasz adress</p>
                     <p>
                         Województwo: MAZOWIECKIE
                     </p>

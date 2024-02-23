@@ -28,11 +28,11 @@ export default function Services() {
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Usługi Prawne <br /> z Zakresu Prawa Handlowego <br /> i Korporacyjnego</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            Nasza kancelaria prawnicza specjalizuje się w świadczeniu wysokiej jakości usług prawnych z zakresu prawa handlowego i korporacyjnego, zapewniając naszym Klientom kompleksową pomoc w różnorodnych kwestiach związanych z prowadzeniem działalności gospodarczej oraz funkcjonowaniem przedsiębiorstw. Dzięki doświadczeniu naszego zespołu adwokatów i doradców prawnych, jesteśmy w stanie zapewnić naszym Klientom skuteczną reprezentację oraz profesjonalne doradztwo, które spełnia najwyższe standardy.
             </p>
           </div>
           
@@ -40,6 +40,49 @@ export default function Services() {
         <div className={styles.image}>
             <img className={styles.info_img} src="/commercial.png" alt="commercial"/>
           </div>
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.offerServices}>
+        <h2>Nasze Usługi z Zakresu Prawa Handlowego i Korporacyjnego Obejmują M.in.:</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <h4>Założenie i Rejestracja Spółek:</h4>
+            <p>
+            Pomagamy naszym Klientom w procesie zakładania i rejestracji spółek, doradzając w wyborze odpowiedniej formy prawnej oraz przygotowując niezbędne dokumenty rejestracyjne.
+            </p>
+          </li>
+          <li>
+            <img src="/offer2.png" alt="" />
+            <h4>Obsługa Transakcji Korporacyjnych:</h4>
+            <p>
+            Świadczymy usługi w zakresie obsługi transakcji korporacyjnych, takich jak fuzje, przejęcia, podziały oraz likwidacje spółek, zapewniając kompleksowe wsparcie prawne na każdym etapie procesu.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Doradztwo w Zarządzaniu Spółką:</h4>
+            <p>
+            Oferujemy wsparcie prawne w zakresie zarządzania spółkami, doradzając w kwestiach dotyczących struktury organów spółki, podejmowania decyzji korporacyjnych oraz prowadzenia sprawozdawczości.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Sporządzanie Umów Handlowych:</h4>
+            <p>
+            Pomagamy w sporządzaniu różnego rodzaju umów handlowych, takich jak umowy dystrybucyjne, umowy agencyjne, umowy franchisingowe oraz inne dokumenty dotyczące relacji biznesowych.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Doradztwo w Prawie Konkurencji:</h4>
+            <p>
+            Zapewniamy wsparcie prawne w kwestiach związanych z prawem konkurencji, pomagając w analizie ryzyka antymonopolowego oraz przygotowywaniu wniosków o zgody na koncentracje.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className={styles.line}></div>

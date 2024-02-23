@@ -28,11 +28,11 @@ export default function Civil() {
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Usługi z Zakresu <br /> Prawa Cywilnego</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            Nasza kancelaria prawnicza oferuje kompleksowe usługi z zakresu prawa cywilnego, zapewniając naszym Klientom profesjonalną pomoc w różnorodnych sprawach związanych z relacjami prawno-cywilnymi. Niezależnie od charakteru i skomplikowania sprawy, nasz doświadczony zespół adwokatów i radców prawnych podejmuje się zapewnienia skutecznej reprezentacji oraz wsparcia na każdym etapie procesu.
             </p>
           </div>
           
@@ -40,6 +40,32 @@ export default function Civil() {
         <div className={styles.image}>
             <img className={styles.info_img} src="/civil.png" alt="civil"/>
           </div>
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.offerServices}>
+        <h2>Nasze Usługi Obejmują M.in.:</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <p>
+            Doradztwo Prawne: Zapewniamy indywidualne doradztwo prawne w zakresie różnorodnych kwestii cywilnoprawnych, w tym dotyczących umów, zobowiązań, własności, spadków, praw autorskich oraz innych zagadnień związanych z prawem cywilnym.
+            </p>
+          </li>
+          <li>
+          <img src="/offer2.png" alt="" />
+            <p>
+            Reprezentacja w Sporach Cywilnych: Nasz zespół adwokatów świadczy profesjonalną reprezentację Klientów w procesach sądowych dotyczących spraw cywilnych, w tym w sprawach o odszkodowania, roszczenia majątkowe, podziały majątku, sporów o umowy oraz inne sprawy związane z prawem cywilnym.
+            </p>
+          </li>
+          <li>
+          <img src="/offer3.png" alt="" />
+            <p>
+            Obsługa Spadków: Pomagamy naszym Klientom w kwestiach związanych ze sporządzeniem testamentu, dziedziczeniem, podziałem majątku oraz wszelkimi innymi kwestiami związanymi ze sprawami spadkowymi, zapewniając kompleksową i rzetelną obsługę.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className={styles.line}></div>

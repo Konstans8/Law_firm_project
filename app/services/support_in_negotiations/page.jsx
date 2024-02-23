@@ -28,11 +28,11 @@ export default function ServicesOne() {
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Wsparcie w Negocjacjach Prawnych</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            Nasza kancelaria prawnicza oferuje wysokiej jakości wsparcie w negocjacjach we wszystkich dziedzinach prawa, zapewniając naszym Klientom skuteczną pomoc w osiągnięciu satysfakcjonujących porozumień oraz rozwiązaniu konfliktów w sposób korzystny dla wszystkich zainteresowanych stron. Dzięki doświadczeniu naszego zespołu adwokatów i mediatorów, jesteśmy w stanie prowadzić negocjacje na najwyższym poziomie, dbając o ochronę interesów naszych Klientów oraz osiągnięcie optymalnych rezultatów.
             </p>
           </div>
           
@@ -40,6 +40,42 @@ export default function ServicesOne() {
         <div className={styles.image}>
             <img className={styles.info_img} src="/negotiate.png" alt="law lady"/>
           </div>
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.offerServices}>
+        <h2>Nasze Usługi Wsparcia w Negocjacjach Obejmują M.in.:</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <h4>Negocjacje Biznesowe:</h4>
+            <p>
+            Pomagamy naszym Klientom w prowadzeniu negocjacji w sprawach biznesowych, takich jak zawieranie umów handlowych, umów partnerskich, umów licencyjnych oraz innych umów korporacyjnych. Nasz zespół prawników wspiera Klientów w osiągnięciu korzystnych warunków umownych oraz minimalizacji ryzyka prawnych.
+            </p>
+          </li>
+          <li>
+            <img src="/offer2.png" alt="" />
+            <h4>Negocjacje w Sprawach Nieruchomości: </h4>
+            <p>
+            Świadczymy wsparcie w negocjacjach dotyczących transakcji nieruchomościowych, w tym zakupu, sprzedaży, najmu czy dzierżawy nieruchomości. Nasz zespół prawników doradza Klientom w kwestiach związanych z prawem nieruchomości oraz pomaga osiągnąć porozumienie z drugą stroną transakcji.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Negocjacje w Sprawach Korporacyjnych: </h4>
+            <p>
+            Oferujemy pomoc w negocjacjach dotyczących spraw korporacyjnych, takich jak restrukturyzacje, fuzje i przejęcia, rozwiązanie spółek oraz inne kwestie związane z życiem korporacyjnym. Nasz zespół prawników specjalizuje się w reprezentowaniu interesów firm oraz przedsiębiorstw na różnych płaszczyznach.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Mediacje i Rozwiązywanie Konfliktów:</h4>
+            <p>
+            Wspieramy naszych Klientów w mediacjach oraz alternatywnych metodach rozwiązywania sporów, pomagając znaleźć konstruktywne i satysfakcjonujące rozwiązania bez konieczności angażowania się w długotrwałe i kosztowne procesy sądowe.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className={styles.line}></div>

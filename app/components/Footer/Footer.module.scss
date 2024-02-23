@@ -70,6 +70,10 @@
         cursor: pointer;
         margin-top: 10px;
         margin-bottom: 30px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
             background: #8985c6;

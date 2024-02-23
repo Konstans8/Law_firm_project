@@ -28,11 +28,11 @@ export default function Services() {
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Sporządzanie i Opiniowanie Umów Prawnych</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            Nasza kancelaria prawnicza oferuje profesjonalne usługi w zakresie sporządzania i opiniowania umów prawnych, zapewniając naszym Klientom kompleksową pomoc w przygotowywaniu i analizie wszelkiego rodzaju umów, które są kluczowe dla ich działalności biznesowej lub osobistych transakcji. Dzięki bogatemu doświadczeniu naszego zespołu prawników oraz dogłębnemu zrozumieniu różnych dziedzin prawa, jesteśmy w stanie zapewnić naszym Klientom wysokiej jakości dokumenty prawne, które spełniają ich potrzeby oraz chronią ich interesy.
             </p>
           </div>
           
@@ -40,6 +40,49 @@ export default function Services() {
         <div className={styles.image}>
             <img className={styles.info_img} src="/agreement.png" alt="law lady"/>
           </div>
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.offerServices}>
+        <h2>Nasze Usługi Sporządzania i Opiniowania Umów Obejmują M.in.:</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <h4>Sporządzanie Umów Handlowych: </h4>
+            <p>
+            Pomagamy naszym Klientom w przygotowywaniu umów handlowych, takich jak umowy sprzedaży, umowy najmu, umowy dzierżawy, umowy współpracy biznesowej, umowy franchisingu oraz inne umowy, które są niezbędne dla prowadzenia działalności gospodarczej.
+            </p>
+          </li>
+          <li>
+            <img src="/offer2.png" alt="" />
+            <h4>Umowy Pracy i Umowy Zarządzania: </h4>
+            <p>
+            Świadczymy usługi w zakresie sporządzania umów o pracę, umów o dzieło, umów o świadczenie usług, umów zlecenia oraz innych dokumentów związanych z relacjami pracowniczymi i zarządczymi w firmie.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Umowy Licencyjne i Umowy Franchisingowe:</h4>
+            <p>
+            Doradzamy naszym Klientom w kwestiach związanych z umowami licencyjnymi, umowami franczyzowymi oraz innymi umowami dotyczącymi praw własności intelektualnej i wykorzystywania technologii.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Umowy Inwestycyjne i Finansowe: </h4>
+            <p>
+            Pomagamy w sporządzaniu umów inwestycyjnych, umów pożyczki, umów leasingu, umów faktoringowych oraz innych dokumentów związanych z finansowaniem i inwestycjami.
+            </p>
+          </li>
+          <li>
+            <img src="/offer3.png" alt="" />
+            <h4>Opiniowanie Umów:</h4>
+            <p>
+            Nasz zespół prawników specjalizuje się w analizie i opiniowaniu istniejących umów, identyfikując ryzyka prawne, sugestywne klauzule oraz proponując niezbędne poprawki mające na celu zabezpieczenie interesów Klienta i minimalizację potencjalnych konfliktów.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className={styles.line}></div>

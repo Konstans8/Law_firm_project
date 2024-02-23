@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className={styles.description}>
               <p>
-                Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+                Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz – to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
               </p>
             </div>
             
@@ -55,9 +55,6 @@ export default function Home() {
             <img src="/partners.png" alt="" />
             <img src="/partners.png" alt="" />
             <img src="/partners.png" alt="" />
-            <img src="/partners.png" alt="" />
-            <img src="/partners.png" alt="" />
-            <img src="/partners.png" alt="" />
           </div>
         </div>
 
@@ -67,9 +64,12 @@ export default function Home() {
           <h2>Dlaczego kancelaria Zembowicz?</h2>
           <ul>
             <li>
-              <img src="/Component_1.svg" alt="" />
+              <img src="/Component_6.svg" alt="" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis autem aspernatur doloremque doloribus ducimus eligendi eaque libero 
+              Współpraca z Ekspertami:
+              </p>
+              <p>
+              Współpracujemy z doświadczonymi ekspertami weterynaryjnymi, co umożliwia nam skuteczne analizowanie sprawy i prezentowanie solidnych argumentów przed sądem.
               </p>
             </li>
             <li>
@@ -93,7 +93,10 @@ export default function Home() {
             <li>
             <img src="/Component_4.svg" alt="" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis autem aspernatur doloremque doloribus ducimus eligendi eaque libero 
+              Transparentność:
+              </p>
+              <p>
+              Oferujemy jasne i transparentne warunki współpracy, abyś mógł być pewien każdego kroku postępowania.
               </p>
             </li>
             {/* <li>
@@ -116,17 +119,17 @@ export default function Home() {
         <div className={styles.info}>
           <div className={styles.info_container}>
             <div className={styles.title}>
-              <h2>CZYM SIE ZAJMUJEMY</h2>
+              <h2>Radca Prawny <br /> Renata Zembowicz</h2>
             </div>
             <div className={styles.description}>
               <p>
-                Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+              Renata Zembowicz to doświadczony radca prawny, wyróżnia się pasją do prawa oraz indywidualnym podejściem do każdej sprawy. Jej zdolność do skutecznego rozwiązywania problemów prawnych sprawiła, że zdobyła zaufanie licznych klientów. Renata specjalizuje się w obszarach takich jak prawo cywilne, handlowe, rodzinne zapewniając kompleksową obsługę prawną.
               </p>
             </div>
             
           </div>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/page_1_3.png" alt="law lady"/>
+              <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
             </div>
         </div>
 

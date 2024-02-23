@@ -21,7 +21,7 @@ export default function Specialization() {
         <img className={styles.image_media_768} src="/main_3media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>Reprezentacja <br /> Prawna <br /> Weterynarzy</h1>
+          <h1>Reprezentacja <br /> Prawna <br />Lekarzy <br /> Weterynarzy</h1>
         </div>
       </div> 
 
@@ -73,7 +73,6 @@ export default function Specialization() {
             <li>Doświadczenie w Sądzie zdobyliśmy  reprezentując weterynarzy i korporacje weterynaryjne przed sądem. Nasze sukcesy przekładają się na zaufanie klientów.</li>
             <li>Indywidualne Podejście: Każda sprawa jest dla nas unikalna. Staramy się zrozumieć specyfikę sytuacji lekarza Weterynarza, co pozwala nam dostosować strategię do konkretnych potrzeb.</li>
             <li>Współpraca z Ekspertami: Współpracujemy z doświadczonymi ekspertami weterynaryjnymi, co umożliwia nam skuteczne analizowanie sprawy i prezentowanie solidnych argumentów przed sądem.</li>
-            
           </ul>
         </div>
       </div>
@@ -81,28 +80,28 @@ export default function Specialization() {
       <div className={styles.line}></div>
 
       <div className={styles.offer}>
-          <h2>Nasza kancelaria oferuje szeroki zakres usług prawnych</h2>
-          <ul>
-            <li>
-              <img src="/offer1.png" alt="" />
-              <p>
-              Reprezentacja w sprawach związanych z błędami lekarskimi weterynaryjnymi.
-              </p>
-            </li>
-            <li>
-            <img src="/offer2.png" alt="" />
-              <p>
-              Doradztwo prawne dotyczące zgodności z obowiązującymi przepisami weterynaryjnymi.
-              </p>
-            </li>
-            <li>
-            <img src="/offer3.png" alt="" />
-              <p>
-              Przygotowywanie umów i dokumentacji zabezpieczającej interesy weterynarzy i korporacji weterynaryjnych.
-              </p>
-            </li>
-          </ul>
-        </div>
+        <h2>Nasza kancelaria oferuje szeroki zakres usług prawnych</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <p>
+            Reprezentacja w sprawach związanych z błędami lekarskimi weterynaryjnymi.
+            </p>
+          </li>
+          <li>
+          <img src="/offer2.png" alt="" />
+            <p>
+            Doradztwo prawne dotyczące zgodności z obowiązującymi przepisami weterynaryjnymi.
+            </p>
+          </li>
+          <li>
+          <img src="/offer3.png" alt="" />
+            <p>
+            Przygotowywanie umów i dokumentacji zabezpieczającej interesy weterynarzy i korporacji weterynaryjnych.
+            </p>
+          </li>
+        </ul>
+      </div>
 
       <div className={styles.line}></div>
 

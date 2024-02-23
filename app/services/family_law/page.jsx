@@ -28,18 +28,70 @@ export default function Services() {
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Usługi z Zakresu <br /> Prawa Rodzinnego</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+              Nasza kancelaria prawnicza specjalizuje się w obsłudze spraw z zakresu prawa rodzinnego, oferując naszym Klientom kompleksową i profesjonalną pomoc w różnorodnych kwestiach związanych z życiem rodzinnym oraz relacjami między członkami rodziny. Dążymy do zapewnienia naszym Klientom wsparcia prawnego, które uwzględnia ich indywidualne potrzeby oraz dba o dobro wszystkich zainteresowanych stron.
             </p>
           </div>
-          
         </div>
         <div className={styles.image}>
             <img className={styles.info_img} src="/family.png" alt="law lady"/>
           </div>
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.offerServices}>
+        <h2>Nasze Usługi Obejmują M.in.:</h2>
+        <ul>
+          <li>
+            <img src="/offer1.png" alt="" />
+            <h4>
+            Rozwody i Separacje:
+            </h4>
+            <p>
+            Zapewniamy wsparcie prawnika w procesach rozwodowych oraz separacyjnych, pomagając naszym Klientom w zrozumieniu ich praw i obowiązków, oraz reprezentując ich interesy przed sądem w sprawach dotyczących rozwodów, podziału majątku, alimentów oraz opieki nad dziećmi.
+            </p>
+          </li>
+          <li>
+          <img src="/offer2.png" alt="" />
+            <h4>
+            Sprawy Alimentacyjne:
+            </h4>
+            <p>
+            Świadczymy profesjonalną pomoc prawna w sprawach alimentacyjnych, w tym ustalaniu wysokości alimentów, modyfikacji obowiązujących zobowiązań alimentacyjnych oraz egzekucji należnych świadczeń alimentacyjnych.
+            </p>
+          </li>
+          <li>
+          <img src="/offer3.png" alt="" />
+            <h4>
+            Sprawy o Opiekę nad Dziećmi: 
+            </h4>
+            <p>
+            Reprezentujemy naszych Klientów w sprawach dotyczących ustalenia, zmiany lub wygaśnięcia praw do opieki nad dziećmi, w tym również w kwestiach związanych z władzą rodzicielską, miejscem zamieszkania dziecka oraz ustaleniem kontaktów z dzieckiem.
+            </p>
+          </li>
+          <li>
+          <img src="/offer3.png" alt="" />
+            <h4>
+            Adopcje: 
+            </h4>
+            <p>
+            Pomagamy naszym Klientom w procesie adopcji, zapewniając wsparcie prawnika w przeprowadzeniu niezbędnych formalności oraz reprezentując ich interesy przed sądem w sprawach adopcyjnych.
+            </p>
+          </li>
+          <li>
+          <img src="/offer3.png" alt="" />
+            <h4>
+            Mediacje Rodzinne: 
+            </h4>
+            <p>
+            Oferujemy usługi mediatora rodzinnych, pomagając naszym Klientom w rozwiązywaniu sporów rodzinnych pozasądowo, w sposób konstruktywny i korzystny dla wszystkich zainteresowanych stron.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className={styles.line}></div>

@@ -25,24 +25,24 @@ export default function Services() {
         <img className={styles.image_media_768} src="/main_2media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
-          <h1>SPEKTR RÓŻNORAKICH USŁUG W ZAKRESIE PRAWA</h1>
+          <h1>Szerokie Spektrum Usług w zakresie prawa</h1>
         </div>
       </div> 
 
       <div className={styles.info}>
         <div className={styles.info_container}>
           <div className={styles.title}>
-            <h2>CZYM SIE ZAJMUJEMY</h2>
+            <h2>Nasza <br /> Oferta <br /> Prawna</h2>
           </div>
           <div className={styles.description}>
             <p>
-              Witamy w Kancelarii Radcy Prawnego Renaty Zembowicz –to miejsce, gdzie prawa stają się klarowne, a rozwiązania są skrojone na miarę Twoich potrzeb. Jako zaufany radca prawny, Renata Zembowicz i jej zespół specjalistów oferują kompleksowe usługi prawne, oparte na solidnej wiedzy i długoletnim doświadczeniu. W centrum naszej misji stoi świadczenie usług prawnych na najwyższym poziomie. Zrozumienie, profesjonalizm i skuteczność to wartości, które kierują naszą pracą. Jesteśmy tu po to, aby służyć wsparciem w najbardziej wymagających kwestiach prawnych.
+            W Kancelarii Renaty Zembowicz oferujemy szeroki zakres usług prawnych, obejmujących porady prawne, reprezentację sądową, sporządzanie umów oraz inne. Bez względu na charakter Twojej sprawy, możesz być pewien, że podejmiemy się jej z pełnym zaangażowaniem i profesjonalizmem.
             </p>
           </div>
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
+            <img className={styles.info_img} src="/info_page.png" alt="law lady"/>
           </div>
       </div>
 
