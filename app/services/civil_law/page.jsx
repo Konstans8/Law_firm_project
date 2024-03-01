@@ -16,9 +16,9 @@ export default function Civil() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_1.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/services_1media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/services_1media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/civil/services_1.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/civil/services_1media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/civil/services_1media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Prawo cywilne</h1>
@@ -38,7 +38,7 @@ export default function Civil() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/civil.png" alt="civil"/>
+            <img className={styles.info_img} src="/page2/civil/civil.png" alt="civil"/>
           </div>
       </div>
 
@@ -48,21 +48,30 @@ export default function Civil() {
         <h2>Nasze Usługi Obejmują M.in.:</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page2/civil/c1.png" alt="" />
+            <h4>
+            Doradztwo Prawne:
+            </h4>
             <p>
-            Doradztwo Prawne: Zapewniamy indywidualne doradztwo prawne w zakresie różnorodnych kwestii cywilnoprawnych, w tym dotyczących umów, zobowiązań, własności, spadków, praw autorskich oraz innych zagadnień związanych z prawem cywilnym.
+            Zapewniamy indywidualne doradztwo prawne w zakresie różnorodnych kwestii cywilnoprawnych, w tym dotyczących umów, zobowiązań, własności, spadków, praw autorskich oraz innych zagadnień związanych z prawem cywilnym.
             </p>
           </li>
           <li>
-          <img src="/offer2.png" alt="" />
+          <img src="/page2/civil/c2.png" alt="" />
+            <h4>
+            Reprezentacja w Sporach Cywilnych: 
+            </h4>
             <p>
-            Reprezentacja w Sporach Cywilnych: Nasz zespół adwokatów świadczy profesjonalną reprezentację Klientów w procesach sądowych dotyczących spraw cywilnych, w tym w sprawach o odszkodowania, roszczenia majątkowe, podziały majątku, sporów o umowy oraz inne sprawy związane z prawem cywilnym.
+            Nasz zespół adwokatów świadczy profesjonalną reprezentację Klientów w procesach sądowych dotyczących spraw cywilnych, w tym w sprawach o odszkodowania, roszczenia majątkowe, podziały majątku, sporów o umowy oraz inne sprawy związane z prawem cywilnym.
             </p>
           </li>
           <li>
-          <img src="/offer3.png" alt="" />
+          <img src="/page2/civil/c3.png" alt="" />
+            <h4>
+            Obsługa Spadków: 
+            </h4>
             <p>
-            Obsługa Spadków: Pomagamy naszym Klientom w kwestiach związanych ze sporządzeniem testamentu, dziedziczeniem, podziałem majątku oraz wszelkimi innymi kwestiami związanymi ze sprawami spadkowymi, zapewniając kompleksową i rzetelną obsługę.
+            Pomagamy naszym Klientom w kwestiach związanych ze sporządzeniem testamentu, dziedziczeniem, podziałem majątku oraz wszelkimi innymi kwestiami związanymi ze sprawami spadkowymi, zapewniając kompleksową i rzetelną obsługę.
             </p>
           </li>
         </ul>

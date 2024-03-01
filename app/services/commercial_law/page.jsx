@@ -16,9 +16,9 @@ export default function Services() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_6.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/services_6media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/services_6media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/commerce/services_6.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/commerce/services_6media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/commerce/services_6media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Prawo handlowe i korporacje</h1>
@@ -38,7 +38,7 @@ export default function Services() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/commercial.png" alt="commercial"/>
+            <img className={styles.info_img} src="/page2/commerce/commercial.png" alt="commercial"/>
           </div>
       </div>
 
@@ -48,35 +48,35 @@ export default function Services() {
         <h2>Nasze Usługi z Zakresu Prawa Handlowego i Korporacyjnego Obejmują M.in.:</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page2/commerce/b1.png" alt="" />
             <h4>Założenie i Rejestracja Spółek:</h4>
             <p>
             Pomagamy naszym Klientom w procesie zakładania i rejestracji spółek, doradzając w wyborze odpowiedniej formy prawnej oraz przygotowując niezbędne dokumenty rejestracyjne.
             </p>
           </li>
           <li>
-            <img src="/offer2.png" alt="" />
+            <img src="/page2/commerce/b2.png" alt="" />
             <h4>Obsługa Transakcji Korporacyjnych:</h4>
             <p>
             Świadczymy usługi w zakresie obsługi transakcji korporacyjnych, takich jak fuzje, przejęcia, podziały oraz likwidacje spółek, zapewniając kompleksowe wsparcie prawne na każdym etapie procesu.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/commerce/b3.png" alt="" />
             <h4>Doradztwo w Zarządzaniu Spółką:</h4>
             <p>
             Oferujemy wsparcie prawne w zakresie zarządzania spółkami, doradzając w kwestiach dotyczących struktury organów spółki, podejmowania decyzji korporacyjnych oraz prowadzenia sprawozdawczości.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/commerce/b4.png" alt="" />
             <h4>Sporządzanie Umów Handlowych:</h4>
             <p>
             Pomagamy w sporządzaniu różnego rodzaju umów handlowych, takich jak umowy dystrybucyjne, umowy agencyjne, umowy franchisingowe oraz inne dokumenty dotyczące relacji biznesowych.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/commerce/b5.png" alt="" />
             <h4>Doradztwo w Prawie Konkurencji:</h4>
             <p>
             Zapewniamy wsparcie prawne w kwestiach związanych z prawem konkurencji, pomagając w analizie ryzyka antymonopolowego oraz przygotowywaniu wniosków o zgody na koncentracje.

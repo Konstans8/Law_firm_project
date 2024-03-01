@@ -22,9 +22,9 @@ export default function Home() {
         <Arrow />
 
         <div className={styles.hero}> 
-          <img className={styles.image} src="/main_1.png" alt="Main cover" />
-          <img className={styles.image_media_1024} src="/main_1media1200.png" alt="Main cover" />
-          <img className={styles.image_media_768} src="/main_1media768.png" alt="Main cover" />
+          <img className={styles.image} src="/page1/main_1.png" alt="Main cover" />
+          <img className={styles.image_media_1024} src="/page1/main_1media1200.png" alt="Main cover" />
+          <img className={styles.image_media_768} src="/page1/main_1media768.png" alt="Main cover" />
           <div className={styles.hero_text}>
             <h1>RADCA <br /> PRAWNY <br /> RENATA <br /> ZEMBOWICZ</h1>
           </div>
@@ -43,7 +43,7 @@ export default function Home() {
             
           </div>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/page_1_2.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page1/page_1_2.png" alt="law lady"/>
             </div>
         </div>
 
@@ -51,10 +51,10 @@ export default function Home() {
 
         <div className={styles.partners}>
           <h2>NASI PARTNERZY</h2>
-          <div className={styles.names}>
-            <img src="/partners.png" alt="" />
-            <img src="/partners.png" alt="" />
-            <img src="/partners.png" alt="" />
+          <div className={styles.names_main_page}>
+            <img src="/page1/partners.png" alt="" className={styles.our_partner}/>
+            <img src="/page1/partners2.png" alt="" className={styles.our_partner}/>
+            <img src="/page1/partners3.png" alt="" className={styles.our_partner}/>
           </div>
         </div>
 
@@ -64,37 +64,37 @@ export default function Home() {
           <h2>Dlaczego kancelaria Zembowicz?</h2>
           <ul>
             <li>
-              <img src="/Component_6.svg" alt="" />
-              <p>
+              <img src="/page1/Component_6.svg" alt="" />
+              <h3>
               Współpraca z Ekspertami:
-              </p>
+              </h3>
               <p>
               Współpracujemy z doświadczonymi ekspertami weterynaryjnymi, co umożliwia nam skuteczne analizowanie sprawy i prezentowanie solidnych argumentów przed sądem.
               </p>
             </li>
             <li>
-            <img src="/Component_2.svg" alt="" />
-              <p>
+            <img src="/page1/Component_2.svg" alt="" />
+              <h3>
               Indywidualne Podejście:
-              </p>
+              </h3>
               <p>
               Jesteśmy świadomi, że każda sprawa jest wyjątkowa. Dlatego dostosowujemy nasze podejście do indywidualnych potrzeb klienta.
               </p>
             </li>
             <li>
-            <img src="/Component_3.svg" alt="" />
-              <p>
+            <img src="/page1/Component_3.svg" alt="" />
+              <h3>
               Doświadczenie i Profesjonalizm: 
-              </p>
+              </h3>
               <p>
               Renata Zembowicz to prawnik z bogatym doświadczeniem, a nasz zespół to eksperci w swoich dziedzinach.
               </p>
             </li>
             <li>
-            <img src="/Component_4.svg" alt="" />
-              <p>
+            <img src="/page1/Component_4.svg" alt="" />
+              <h3>
               Transparentność:
-              </p>
+              </h3>
               <p>
               Oferujemy jasne i transparentne warunki współpracy, abyś mógł być pewien każdego kroku postępowania.
               </p>
@@ -129,7 +129,7 @@ export default function Home() {
             
           </div>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/info_page2.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page1/info_page2.png" alt="law lady"/>
             </div>
         </div>
 

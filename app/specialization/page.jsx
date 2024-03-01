@@ -16,9 +16,9 @@ export default function Specialization() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/main_3.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/main_3media1200.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/main_3media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page3/main_3.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page3/main_3media1200.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page3/main_3media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
           <h1>Reprezentacja <br /> Prawna <br />Lekarzy <br /> Weterynarzy</h1>
@@ -60,7 +60,7 @@ export default function Specialization() {
         </div>
         <div className={styles.block_image}>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/info_page4.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page3/info_page4.png" alt="law lady"/>
           </div>
         </div>
         <div className={styles.block_bottom}>
@@ -83,19 +83,19 @@ export default function Specialization() {
         <h2>Nasza kancelaria oferuje szeroki zakres usług prawnych</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page3/offer1.png" alt="" />
             <p>
             Reprezentacja w sprawach związanych z błędami lekarskimi weterynaryjnymi.
             </p>
           </li>
           <li>
-          <img src="/offer2.png" alt="" />
+          <img src="/page3/offer2.png" alt="" />
             <p>
             Doradztwo prawne dotyczące zgodności z obowiązującymi przepisami weterynaryjnymi.
             </p>
           </li>
           <li>
-          <img src="/offer3.png" alt="" />
+          <img src="/page3/offer3.png" alt="" />
             <p>
             Przygotowywanie umów i dokumentacji zabezpieczającej interesy weterynarzy i korporacji weterynaryjnych.
             </p>
@@ -109,8 +109,11 @@ export default function Specialization() {
         <h4>
           Jeśli poszukujesz doświadczonego adwokata ds. błędów lekarskich weterynaryjnych, jesteśmy tutaj, aby Ci pomóc. Nasza kancelaria świadczy usługi na terenie całej Polski. Skontaktuj się z nami, aby umówić się na bezpłatną konsultację prawna. Jesteśmy, aby bronić Twoich praw.
         </h4>
-        <a className={styles.phone} href="tel:+48505966643">
-          <img src="/phone.svg" alt="" />
+        <a className={styles.btn} href="tel:+48505966643">
+          <img src="/phone.svg" alt="telefon" />
+        </a>
+        <a className={styles.btn} href="mailto: kancelaria@zembowicz.pl">
+          <img src="/mail.svg" alt="mail" />
         </a>
       </div>
       

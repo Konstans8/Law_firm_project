@@ -16,9 +16,9 @@ export default function Services() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_2.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/services_2media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/services_2media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/family/services_2.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/family/services_2media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/family/services_2media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Prawo rodzinne</h1>
@@ -37,7 +37,7 @@ export default function Services() {
           </div>
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/family.png" alt="law lady"/>
+            <img className={styles.info_img} src="/page2/family/family.png" alt="family"/>
           </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function Services() {
         <h2>Nasze Usługi Obejmują M.in.:</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page2/family/f1.png" alt="" />
             <h4>
             Rozwody i Separacje:
             </h4>
@@ -56,7 +56,7 @@ export default function Services() {
             </p>
           </li>
           <li>
-          <img src="/offer2.png" alt="" />
+          <img src="/page2/family/f2.png" alt="" />
             <h4>
             Sprawy Alimentacyjne:
             </h4>
@@ -65,7 +65,7 @@ export default function Services() {
             </p>
           </li>
           <li>
-          <img src="/offer3.png" alt="" />
+          <img src="/page2/family/f3.png" alt="" />
             <h4>
             Sprawy o Opiekę nad Dziećmi: 
             </h4>
@@ -74,7 +74,7 @@ export default function Services() {
             </p>
           </li>
           <li>
-          <img src="/offer3.png" alt="" />
+          <img src="/page2/family/f4.png" alt="" />
             <h4>
             Adopcje: 
             </h4>
@@ -83,7 +83,7 @@ export default function Services() {
             </p>
           </li>
           <li>
-          <img src="/offer3.png" alt="" />
+          <img src="/page2/family/f5.png" alt="" />
             <h4>
             Mediacje Rodzinne: 
             </h4>

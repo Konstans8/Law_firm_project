@@ -16,9 +16,9 @@ export default function ServicesOne() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_4.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/services_4media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/services_4media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/support/services_4.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/support/services_4media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/support/services_4media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Wsparcie w negocjacjach</h1>
@@ -38,7 +38,7 @@ export default function ServicesOne() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/negotiate.png" alt="law lady"/>
+            <img className={styles.info_img} src="/page2/support/negotiate.png" alt="support"/>
           </div>
       </div>
 
@@ -48,28 +48,28 @@ export default function ServicesOne() {
         <h2>Nasze Usługi Wsparcia w Negocjacjach Obejmują M.in.:</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page2/support/s1.png" alt="" />
             <h4>Negocjacje Biznesowe:</h4>
             <p>
             Pomagamy naszym Klientom w prowadzeniu negocjacji w sprawach biznesowych, takich jak zawieranie umów handlowych, umów partnerskich, umów licencyjnych oraz innych umów korporacyjnych. Nasz zespół prawników wspiera Klientów w osiągnięciu korzystnych warunków umownych oraz minimalizacji ryzyka prawnych.
             </p>
           </li>
           <li>
-            <img src="/offer2.png" alt="" />
+            <img src="/page2/support/s2.png" alt="" />
             <h4>Negocjacje w Sprawach Nieruchomości: </h4>
             <p>
             Świadczymy wsparcie w negocjacjach dotyczących transakcji nieruchomościowych, w tym zakupu, sprzedaży, najmu czy dzierżawy nieruchomości. Nasz zespół prawników doradza Klientom w kwestiach związanych z prawem nieruchomości oraz pomaga osiągnąć porozumienie z drugą stroną transakcji.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/support/s3.png" alt="" />
             <h4>Negocjacje w Sprawach Korporacyjnych: </h4>
             <p>
             Oferujemy pomoc w negocjacjach dotyczących spraw korporacyjnych, takich jak restrukturyzacje, fuzje i przejęcia, rozwiązanie spółek oraz inne kwestie związane z życiem korporacyjnym. Nasz zespół prawników specjalizuje się w reprezentowaniu interesów firm oraz przedsiębiorstw na różnych płaszczyznach.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/support/s4.png" alt="" />
             <h4>Mediacje i Rozwiązywanie Konfliktów:</h4>
             <p>
             Wspieramy naszych Klientów w mediacjach oraz alternatywnych metodach rozwiązywania sporów, pomagając znaleźć konstruktywne i satysfakcjonujące rozwiązania bez konieczności angażowania się w długotrwałe i kosztowne procesy sądowe.

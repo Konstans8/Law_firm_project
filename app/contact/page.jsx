@@ -17,9 +17,9 @@ export default function Services() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/main_5.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/main_5media1200.png" alt="Logo" />
-        <img className={styles.image_media_768} src="/main_5media768.png" alt="Logo" />
+        <img className={styles.image} src="/page5/main_5.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page5/main_5media1200.png" alt="Logo" />
+        <img className={styles.image_media_768} src="/page5/main_5media768.png" alt="Logo" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
           <h1>Lokalizacja <br /> Kancelarii <br /> Zembowicz</h1>
@@ -38,7 +38,7 @@ export default function Services() {
         </div>
         <div className={styles.address}>
           <div className={styles.address_top}>
-            <img src="/contact_map.svg" alt="" />
+            <img src="/page5/contact_map.svg" alt="" />
             <h5>Adres:</h5>
             <p>Warszawa</p>  
             <p>Ul. Długa 29</p>  
@@ -46,15 +46,15 @@ export default function Services() {
             <p>Kod pocztowy: 00-238</p>  
           </div>
           <div className={styles.address_center}>
-          <img src="/contact_call.svg" alt="" />
+          <img src="/page5/contact_call.svg" alt="" />
             <h5>Telefon:</h5> 
             <a href="tel:+48508064010">+48 508 064 010</a>
             <a href="tel:+48505966643">+48 505 966 643</a>
           </div>
           <div className={styles.address_bottom}>
-          <img src="/contact_mail.svg" alt="" />
+          <img src="/page5/contact_mail.svg" alt="" />
             <h5>Adres poczty elektronicznej:</h5>
-            <a href="mailto: helloworld@js.com">kancelaria@zembowicz.pl</a>
+            <a href="mailto: kancelaria@zembowicz.pl">kancelaria@zembowicz.pl</a>
           </div>
         </div>
 

@@ -16,9 +16,9 @@ export default function Services() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/services_5.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/services_5media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/services_5media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/preparing/services_5.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/preparing/services_5media1024.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/preparing/services_5media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Sporządzanie i opiniowanie umów</h1>
@@ -38,7 +38,7 @@ export default function Services() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/agreement.png" alt="law lady"/>
+            <img className={styles.info_img} src="/page2/preparing/agreement.png" alt="preparing"/>
           </div>
       </div>
 
@@ -48,35 +48,35 @@ export default function Services() {
         <h2>Nasze Usługi Sporządzania i Opiniowania Umów Obejmują M.in.:</h2>
         <ul>
           <li>
-            <img src="/offer1.png" alt="" />
+            <img src="/page2/preparing/p1.png" alt="" />
             <h4>Sporządzanie Umów Handlowych: </h4>
             <p>
             Pomagamy naszym Klientom w przygotowywaniu umów handlowych, takich jak umowy sprzedaży, umowy najmu, umowy dzierżawy, umowy współpracy biznesowej, umowy franchisingu oraz inne umowy, które są niezbędne dla prowadzenia działalności gospodarczej.
             </p>
           </li>
           <li>
-            <img src="/offer2.png" alt="" />
+            <img src="/page2/preparing/p2.png" alt="" />
             <h4>Umowy Pracy i Umowy Zarządzania: </h4>
             <p>
             Świadczymy usługi w zakresie sporządzania umów o pracę, umów o dzieło, umów o świadczenie usług, umów zlecenia oraz innych dokumentów związanych z relacjami pracowniczymi i zarządczymi w firmie.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/preparing/p3.png" alt="" />
             <h4>Umowy Licencyjne i Umowy Franchisingowe:</h4>
             <p>
             Doradzamy naszym Klientom w kwestiach związanych z umowami licencyjnymi, umowami franczyzowymi oraz innymi umowami dotyczącymi praw własności intelektualnej i wykorzystywania technologii.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/preparing/p4.png" alt="" />
             <h4>Umowy Inwestycyjne i Finansowe: </h4>
             <p>
             Pomagamy w sporządzaniu umów inwestycyjnych, umów pożyczki, umów leasingu, umów faktoringowych oraz innych dokumentów związanych z finansowaniem i inwestycjami.
             </p>
           </li>
           <li>
-            <img src="/offer3.png" alt="" />
+            <img src="/page2/preparing/p5.png" alt="" />
             <h4>Opiniowanie Umów:</h4>
             <p>
             Nasz zespół prawników specjalizuje się w analizie i opiniowaniu istniejących umów, identyfikując ryzyka prawne, sugestywne klauzule oraz proponując niezbędne poprawki mające na celu zabezpieczenie interesów Klienta i minimalizację potencjalnych konfliktów.

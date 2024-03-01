@@ -20,9 +20,9 @@ export default function Services() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/main_2.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/main_2media1200.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/main_2media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/main_2.png" alt="Logo" />
+        <img className={styles.image_media_1024} src="/page2/main_2media1200.png" alt="Main cover" />
+        <img className={styles.image_media_768} src="/page2/main_2media768.png" alt="Main cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
           <h1>Szerokie Spektrum Usług w zakresie prawa</h1>
@@ -42,7 +42,7 @@ export default function Services() {
           
         </div>
         <div className={styles.image}>
-            <img className={styles.info_img} src="/info_page.png" alt="law lady"/>
+            <img className={styles.info_img} src="/page2/info_page2.png" alt="justice offer"/>
           </div>
       </div>
 
