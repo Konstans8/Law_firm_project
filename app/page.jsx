@@ -10,7 +10,7 @@ import Arrow from './components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Kancelaria Zembowicz',
-  description: 'Radca Prawny Renata Zembowicz',
+  description: 'Renata Zembowicz',
 }
 
 export default function Home() {
@@ -22,9 +22,9 @@ export default function Home() {
         <Arrow />
 
         <div className={styles.hero}> 
-          <img className={styles.image} src="/page1/main_1.png" alt="Main cover" />
-          <img className={styles.image_media_1024} src="/page1/main_1media1200.png" alt="Main cover" />
-          <img className={styles.image_media_768} src="/page1/main_1media768.png" alt="Main cover" />
+          <img className={styles.image} src="/page1/main_1.png" alt="Justice" />
+          <img className={styles.image_media_1024} src="/page1/main_1media1200.png" alt="Justice" />
+          <img className={styles.image_media_768} src="/page1/main_1media768.png" alt="Justice" />
           <div className={styles.hero_text}>
             <h1>RADCA <br /> PRAWNY <br /> RENATA <br /> ZEMBOWICZ</h1>
           </div>
@@ -43,7 +43,7 @@ export default function Home() {
             
           </div>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/page1/page_1_2.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page1/page_1_2.png" alt="Lady Law"/>
             </div>
         </div>
 
@@ -52,9 +52,9 @@ export default function Home() {
         <div className={styles.partners}>
           <h2>NASI PARTNERZY</h2>
           <div className={styles.names_main_page}>
-            <img src="/page1/partners.png" alt="" className={styles.our_partner}/>
-            <img src="/page1/partners2.png" alt="" className={styles.our_partner}/>
-            <img src="/page1/partners3.png" alt="" className={styles.our_partner}/>
+            <img src="/page1/partners.png" alt="Omnis Wet Image" className={styles.our_partner}/>
+            <img src="/page1/partners2.png" alt="Omnis Wet Image" className={styles.our_partner}/>
+            <img src="/page1/partners3.png" alt="Omnis Wet Image" className={styles.our_partner}/>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
           <h2>Dlaczego kancelaria Zembowicz?</h2>
           <ul>
             <li>
-              <img src="/page1/Component_6.svg" alt="" />
+              <img src="/page1/Component_6.svg" alt="icon" />
               <h3>
               Współpraca z Ekspertami:
               </h3>
@@ -73,7 +73,7 @@ export default function Home() {
               </p>
             </li>
             <li>
-            <img src="/page1/Component_2.svg" alt="" />
+            <img src="/page1/Component_2.svg" alt="icon" />
               <h3>
               Indywidualne Podejście:
               </h3>
@@ -82,7 +82,7 @@ export default function Home() {
               </p>
             </li>
             <li>
-            <img src="/page1/Component_3.svg" alt="" />
+            <img src="/page1/Component_3.svg" alt="icon" />
               <h3>
               Doświadczenie i Profesjonalizm: 
               </h3>
@@ -91,7 +91,7 @@ export default function Home() {
               </p>
             </li>
             <li>
-            <img src="/page1/Component_4.svg" alt="" />
+            <img src="/page1/Component_4.svg" alt="icon" />
               <h3>
               Transparentność:
               </h3>
@@ -99,18 +99,6 @@ export default function Home() {
               Oferujemy jasne i transparentne warunki współpracy, abyś mógł być pewien każdego kroku postępowania.
               </p>
             </li>
-            {/* <li>
-            <img src="/Component_5.svg" alt="" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis autem aspernatur doloremque doloribus ducimus eligendi eaque libero expedita iusto rem accusantium voluptatum corporis soluta, veritatis est numquam labore quos blanditiis?
-              </p>
-            </li>
-            <li>
-            <img src="/Component_6.svg" alt="" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis autem aspernatur doloremque doloribus ducimus eligendi eaque libero expedita iusto rem accusantium voluptatum corporis soluta, veritatis est numquam labore quos blanditiis?
-              </p>
-            </li> */}
           </ul>
         </div>
 
@@ -129,7 +117,7 @@ export default function Home() {
             
           </div>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/page1/info_page2.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page1/info_page2.png" alt="Renata Zembowicz"/>
             </div>
         </div>
 

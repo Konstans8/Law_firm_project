@@ -6,19 +6,19 @@ import Arrow from '@/app/components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Sporządzanie i opiniowanie umów',
-  description: 'Radca Prawny Renata Zembowicz',
+  description: 'Kancelaria Zembowicz, Radca Prawny Renata Zembowicz, pomoc prawna, adwokat',
 }
 
-export default function Services() {
+export default function ServicePreparing() {
   return (
     <>
 
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/page2/preparing/services_5.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/page2/preparing/services_5media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/page2/preparing/services_5media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/preparing/services_5.png" alt="Preparing cover" />
+        <img className={styles.image_media_1024} src="/page2/preparing/services_5media1024.png" alt="Preparing cover" />
+        <img className={styles.image_media_768} src="/page2/preparing/services_5media768.png" alt="Preparing cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Sporządzanie i opiniowanie umów</h1>

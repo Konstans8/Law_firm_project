@@ -5,8 +5,8 @@ import styles from '../page.module.scss';
 import Arrow from '../components/Arrow/Arrow';
 
 export const metadata = {
-  title: 'Weterynarz',
-  description: 'Błąd lekarski',
+  title: 'Obrona Lekarzy Weterynarzy',
+  description: 'Błąd lekarski, prawo weterynaryjne',
 }
 
 export default function Specialization() {
@@ -16,36 +16,14 @@ export default function Specialization() {
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/page3/main_3.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/page3/main_3media1200.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/page3/main_3media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page3/main_3.png" alt="Medicine cover" />
+        <img className={styles.image_media_1024} src="/page3/main_3media1200.png" alt="Medicine cover" />
+        <img className={styles.image_media_768} src="/page3/main_3media768.png" alt="Medicine cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text}>
           <h1>Reprezentacja <br /> Prawna <br />Lekarzy <br /> Weterynarzy</h1>
         </div>
       </div> 
-
-      {/* <div className={styles.info}>
-        <div className={styles.info_left}>
-          <h2>Radca prawny ds. Błędów Lekarskich Weterynaryjnych</h2>
-          <div className={styles.second_page}>
-            <p>
-            Witamy na stronie profesjonalnej kancelarii radcy prawnego specjalizującej się w reprezentowaniu korporacji weterynaryjnych oraz indywidualnych weterynarzy w sprawach związanych z błędami lekarskimi. Nasza doświadczona i zaangażowany zespół specjalistów jest gotowy świadczyć kompleksową pomoc prawna w tych delikatnych kwestiach.
-            </p>
-            <p>
-            Nasza kancelaria oferuje szeroki zakres usług prawnych, w tym:
-            </p>
-              <ul>
-                <li>Reprezentacja w sprawach związanych z błędami lekarskimi weterynaryjnymi.</li>
-                <li>Doradztwo prawne dotyczące zgodności z obowiązującymi przepisami weterynaryjnymi.</li>
-                <li>Przygotowywanie umów i dokumentacji zabezpieczającej interesy weterynarzy i korporacji weterynaryjnych.</li>
-            </ul>
-          </div>
-        </div>
-        <div className={styles.info_right}>
-          <img src="/info_page4.png" alt="law foto" />
-        </div>
-      </div> */}
 
       <div className={styles.grid}>
         <div className={styles.block_top_left}>
@@ -60,7 +38,7 @@ export default function Specialization() {
         </div>
         <div className={styles.block_image}>
           <div className={styles.image}>
-              <img className={styles.info_img} src="/page3/info_page4.png" alt="law lady"/>
+              <img className={styles.info_img} src="/page3/info_page4.png" alt="doctor image"/>
           </div>
         </div>
         <div className={styles.block_bottom}>

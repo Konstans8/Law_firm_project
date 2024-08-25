@@ -6,19 +6,19 @@ import Arrow from '@/app/components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Prawo handlowe i korporacje',
-  description: 'Radca Prawny Renata Zembowicz',
+  description: 'Kancelaria Zembowicz, Radca Prawny Renata Zembowicz, pomoc prawna, adwokat',
 }
 
-export default function Services() {
+export default function ServiceCommercial() {
   return (
     <>
 
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/page2/commerce/services_6.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/page2/commerce/services_6media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/page2/commerce/services_6media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/commerce/services_6.png" alt="Commerce cover" />
+        <img className={styles.image_media_1024} src="/page2/commerce/services_6media1024.png" alt="Commerce cover" />
+        <img className={styles.image_media_768} src="/page2/commerce/services_6media768.png" alt="Commerce cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Prawo handlowe i korporacje</h1>

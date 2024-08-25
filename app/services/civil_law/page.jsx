@@ -6,19 +6,19 @@ import Arrow from '@/app/components/Arrow/Arrow';
 
 export const metadata = {
   title: 'Prawo cywilne',
-  description: 'Radca Prawny Renata Zembowicz',
+  description: 'Kancelaria Zembowicz, Radca Prawny Renata Zembowicz, pomoc prawna, adwokat',
 }
 
-export default function Civil() {
+export default function ServiceCivil() {
   return (
     <>
 
       <Arrow />
 
       <div className={styles.hero}>
-        <img className={styles.image} src="/page2/civil/services_1.png" alt="Logo" />
-        <img className={styles.image_media_1024} src="/page2/civil/services_1media1024.png" alt="Main cover" />
-        <img className={styles.image_media_768} src="/page2/civil/services_1media768.png" alt="Main cover" />
+        <img className={styles.image} src="/page2/civil/services_1.png" alt="Lawyer cover" />
+        <img className={styles.image_media_1024} src="/page2/civil/services_1media1024.png" alt="Lawyer cover" />
+        <img className={styles.image_media_768} src="/page2/civil/services_1media768.png" alt="Lawyer cover" />
         <div className={styles.req}></div>
         <div className={styles.hero_text_services}>
           <h1>Prawo cywilne</h1>
