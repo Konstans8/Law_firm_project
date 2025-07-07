@@ -9,6 +9,7 @@
     position: absolute;
     z-index: 2;
     transition: all 1s ease-out;
+    //position: fixed;
 
     @media(max-width: 2400px) {
         padding: 30px 120px;
@@ -27,18 +28,18 @@
     .media {
         display: none;
 
-        @media(max-width) {
+        @media(max-width: 1024px) {
             display: block;
         }
     }
 
     .logo {
-        width: 300px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
 
         @media(max-width: 1300px) {
-            width: 200px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
         }
     }
 

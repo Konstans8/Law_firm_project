@@ -1,0 +1,27 @@
+.cookie {
+    background-color: rgb(38, 38, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: static;
+    
+    .descr {
+        color: white;
+        margin-bottom: 5px;
+    }
+    
+    .accept {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn {
+        padding: 7px;
+        background-color: blanchedalmond;
+        color: darkblue;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

@@ -1,22 +1,26 @@
 {
-  "name": "kancelaria_zembowicz",
+  "name": "Dom-rekolekcyjny",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "caniuse-lite": "^1.0.30001703",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.5.0",
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.5"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "framer-motion": "^11.0.3",
-    "sass": "^1.69.7"
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "sass": "^1.85.1"
   }
 }
